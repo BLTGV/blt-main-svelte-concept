@@ -7,8 +7,8 @@
 </svelte:head>
 
 <main transition:fade>
-<div class="flex content-start content-wrap">
-  <div class="w-1/3 p-10">
+<div class="flex flex-wrap">
+  <div class="w-full md:w-1/3 p-10">
 	<div class="max-w-sm rounded overflow-hidden shadow-lg">
 		<a href="vscode"><img in:receive="{{ key: 'vscode' }}" out:send="{{ key: 'vscode' }}" class="w-full" src="visualstudio.svg" alt="VS Code"></a>
 		<div class="px-6 py-4">
@@ -24,7 +24,7 @@
 		</div>
 	</div>
   </div>
-    <div class="w-1/3 p-10">
+    <div class="w-full md:w-1/3 p-10">
 	<div class="max-w-sm rounded overflow-hidden shadow-lg">
 		<a href="react"><img in:receive="{{ key: 'react' }}" out:send="{{ key: 'react' }}" class="w-full" src="react.svg" alt="VS Code"></a>
 		<div class="px-6 py-4">
@@ -40,7 +40,7 @@
 		</div>
 	</div>
   </div>
-    <div class="w-1/3 p-10">
+    <div class="w-full md:w-1/3 p-10">
 	<div class="max-w-sm rounded overflow-hidden shadow-lg">
 		<a href="ubuntu"><img in:receive="{{ key: 'ubuntu' }}" out:send="{{ key: 'ubuntu' }}" class="w-full" src="ubuntu.svg" alt="VS Code"></a>
 		<div class="px-6 py-4">
