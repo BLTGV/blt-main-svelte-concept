@@ -1,12 +1,12 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "blt-main-svelte-concept",
+  "description": "Working Concepts for Svelte",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
     "watch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
     "build": "sapper build --legacy",
-    "export": "sapper export --legacy",
+    "export": "sapper export --legacy --basepath \"blt-main-svelte-concept\"",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
