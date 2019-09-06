@@ -1,15 +1,9 @@
 <script>
-	import { fade } from 'svelte/transition';
-	import Nav from '../components/Nav.svelte';
+  import { fade } from "svelte/transition";
+  import Nav from "../components/Nav.svelte";
 
-	export let segment;
+  export let segment;
 </script>
 
-
-
-	<Nav {segment}/>
-	<slot></slot>
-  	
-
-
-
+<Nav {segment} />
+<slot />
