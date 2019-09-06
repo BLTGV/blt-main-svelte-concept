@@ -1,0 +1,7 @@
+{
+  "search.exclude": {
+    "**/__sapper__": true,
+    "cypress": true,
+    "docs": true
+  }
+}

@@ -6,7 +6,7 @@
     "dev": "sapper dev",
     "watch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
     "build": "sapper build --legacy",
-    "export": "sapper export --basepath \"blt-main-svelte-concept\"",
+    "export": "sapper export --basepath \"blt-main-svelte-concept\" && rm -rf docs/* && cp -rf __sapper__/export/blt-main-svelte-concept/* docs",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",

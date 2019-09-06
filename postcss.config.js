@@ -1,4 +1,4 @@
-const tailwindcss = require("tailwindcss");
+import tailwindcss from "tailwindcss";
 
 // only needed if you want to purge
 // const purgecss = require("@fullhuman/postcss-purgecss")({
@@ -6,11 +6,4 @@ const tailwindcss = require("tailwindcss");
 //   defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
 // });
 
-module.exports = {
-  plugins: [
-    tailwindcss("./tailwind.js"),
-
-    // only needed if you want to purge
-    //...(process.env.NODE_ENV === "production" ? [purgecss] : [])
-  ]
-};
+export const plugins = [tailwindcss("./tailwind.js")];
