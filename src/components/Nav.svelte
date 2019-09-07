@@ -25,8 +25,13 @@
       </a>
       <a
         href="react"
-        class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white">
+        class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
         React
+      </a>
+      <a
+        href="about"
+        class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white">
+        About
       </a>
     </div>
   </div>
