@@ -3,5 +3,6 @@
     "**/__sapper__": true,
     "cypress": true,
     "docs": true
-  }
+  },
+  "editor.formatOnSave": true
 }

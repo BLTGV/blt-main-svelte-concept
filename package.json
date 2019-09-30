@@ -1,7 +1,9 @@
 {
   "name": "blt-main-svelte-concept",
   "description": "Working Concepts for Svelte",
-  "repository": { "url": "https://github.com/BLTGV/blt-main-svelte-concept" },
+  "repository": {
+    "url": "https://github.com/BLTGV/blt-main-svelte-concept"
+  },
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
